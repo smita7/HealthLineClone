@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.site-header {
+  background-color: #000;
+  color: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-container {
+  display: flex;
+  width: 100%;
+
+  margin-left: 40rem;
+  margin-right: 40rem;
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-title:link,
+.header-title:visited {
+  text-decoration: none;
+  color: white;
+
+  font-size: 1.5rem;
+}
+
+.main-nav-ul,
+.secondary-buttons {
+  list-style: none;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.main-nav-ul {
+  margin-left: 5rem;
+}
+
+.nav-btn,
+.secondary-btn {
+  border: none;
+  background-color: inherit;
+  color: inherit;
+  font-size: 1.8rem;
+}
+
+.nav-btn {
+  display: flex;
+  gap: 0.5rem;
+  padding: 2.5rem;
+  align-items: center;
+}
+
+.nav-btn ion-icon {
+  color: #777;
+}
+
+.nav-btn:hover,
+.nav-btn:active,
+.secondary-btn:hover,
+.secondary-btn:active,
+.search-icon:hover,
+.search-icon:active {
+  color: orange;
+}
+
+.nav-btn:hover ion-icon {
+  color: orange;
+}
+
+.secondary-btn {
+  text-transform: uppercase;
+  margin-right: 2rem;
+}
+
+.search-icon {
+  color: white;
+  width: 1.8rem;
+  height: 1.8rem;
+}
